@@ -6,6 +6,15 @@ body{
 .container{
     transition: all 0.8s ease;
 }
+#hashir{
+    font-size: 26px;
+    font-family: 'Italianno', cursive;
+    position: fixed;
+    bottom: -18px;
+    right: 17px;
+    color: #ccc;
+    cursor: default;
+}
 .header{
     position: relative;
     top: 0;
@@ -43,7 +52,7 @@ body{
     color: #ffffff;
     font-weight: lighter;
     font-size: 24px;
-    cursor: pointer;
+    cursor: default;
 }
 .header a{
     text-decoration : none;
