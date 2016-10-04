@@ -117,6 +117,7 @@ body{
     height: 700px;
     color: #fff;
     text-align: center;
+    
 }
 .sub-div-two{
     margin: 0px auto;
@@ -150,8 +151,14 @@ body{
     height: 400px;
     display: inline-block;
 }
+span img{
+    margin-top: 50px;
+    width: 95%;
+    height: 75%;
+    border-radius: 5px;
+}
 .one span{
-    background-image: url(./img/4.jpg);
+    /*background-image: url(./img/4.jpg);*/
     display: block;
     height: 58%;
     background-size: 331px;
@@ -160,9 +167,9 @@ body{
     border-radius: 5px;
 }
 .two span{
-    background-image: url(./img/3.jpg);
-    display: block;
+    /*background-image: url(./img/3.jpg);*/
     height: 58%;
+    display: block;
     background-size: 331px;
     background-repeat: no-repeat;
     background-position: center;
@@ -170,9 +177,9 @@ body{
     
 }
 .three span{
-    background-image: url(./img/2.jpg);
-    display: block;
+    /*background-image: url(./img/2.jpg);*/
     height: 58%;
+    display: block;
     background-size: 331px;
     background-repeat: no-repeat;
     background-position: center;
@@ -256,7 +263,7 @@ body{
 .table{
     background: #202222;
     color: #888;
-    padding: 2em 0em 6em;
+    padding: 2em 0em 0em;
     margin-top: 40px;
 }
 table{
@@ -275,26 +282,31 @@ table h2{
 table p{
     display: inline;
     text-align: right;
+    text-decoration: underline;
+    
 }
 th{
     text-align: left;
     width: 300px;
 }
+tr{
+        height: 95px;
+}
 td{
     text-align: left;
+    margin-right: 400px;
 }
 .underline{
     padding: 0px;
     text-align: left;
-    text-decoration: underline;
 }
-.underline p:hover{
+table p:hover{
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
 }
 .border-bottom td{
-    border-bottom: medium double rgba(144, 144, 144, 0.25);
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
 }
 td a{
     text-decoration: none;
@@ -306,14 +318,41 @@ td a:hover{
     border-color:#888 ; 
 }
 .icons{
-    padding: 10px;
+    /*padding: 0 50px;*/
     text-align: justify;
 }
 a i{
     border: 1px solid #888;
     border-radius: 50%;
-    height: 40px;
-    width: 50px;
+    height: 30px;
+    width: 40px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 7px;
 }
+.none{
+    text-decoration: none;
+}
+.none:hover{
+    color: inherit;
+    cursor: text;
+}
+i{
+    font-size: 26px !important;
+    margin-right: 12px;
+}
+.last{
+   height: 43px;    
+   position: relative;
+   bottom: 30px;
+}
+.last tr{
+    height: 40px;
+    padding: 0px;
+}
+.last td{
+    text-align: center;
+}
+.d2{
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    }
